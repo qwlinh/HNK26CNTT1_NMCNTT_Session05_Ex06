@@ -6,7 +6,7 @@ INPUT: Yêu cầu khởi tạo cơ sơ hạ tầng thiết bị Smart Farm
 PROCESS:
 - Dùng New-Item tạo cây thư mục lồng nhau smart-farm với các thư mục con bin, config, data từ thư mục Home (~).
 - Tạo file ẩn .env bên trong thư mục config.
-- Copy file template.ps1 từ Public sang bin và đổi tên thành pump_control.ps1 trong 1 lệnh duy nhất.
+- Copy file template.ps1 từ Public sang bin và đổi tên thành pump_control.ps1 trong 1 lệnh duy nhất. 
 - Kiểm tra, xác thực bằng lệnh liệt kê tree/ Get-ChildItem -Recurse.
 
 
